@@ -11,7 +11,6 @@ namespace FrameworkDesktop
     [Binding]
     public class AlarmsClocksStepDefinitions : Hooks
     {
-
         [Given(@"Alarms&Clocks app is opened")]
         public void GivenAlarmsClocksAppIsOpened()
         {

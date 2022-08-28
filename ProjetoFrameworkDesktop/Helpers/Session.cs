@@ -26,6 +26,5 @@ namespace ProjetoFrameworkDesktop.Helpers
         {
             driver.Quit();
         }
-
     }
 }
