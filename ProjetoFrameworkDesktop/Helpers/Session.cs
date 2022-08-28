@@ -1,30 +1,30 @@
-﻿using OpenQA.Selenium.Appium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Windows;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoFrameworkDesktop.Helpers
 {
     public class Session
     {
-        WindowsDriver<WindowsElement> Driver;
+        private const string WinAppDriverUrl = "http://127.0.0.1:4723";
+        private const string AlarmsClocksAppID = "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App";
+
+        WindowsDriver<WindowsElement> session;
 
         public WindowsDriver<WindowsElement> OpenTestApp()
         {
             AppiumOptions capabilities = new AppiumOptions();
-            capabilities.AddAdditionalCapability("app", "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App");
-            Driver = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), capabilities);
-            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-
-            return Driver;
+            capabilities.AddAdditionalCapability("app", AlarmsClocksAppID);
+            session = new WindowsDriver<WindowsElement>(new Uri(WinAppDriverUrl), capabilities);
+            session.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            Assert.IsNotNull(session);
+            return session;
         }
 
-        public void CloseApp(WindowsDriver<WindowsElement> driver)
+        public void CloseApp(WindowsDriver<WindowsElement> session)
         {
-            driver.Quit();
+            session.Quit();
         }
     }
 }

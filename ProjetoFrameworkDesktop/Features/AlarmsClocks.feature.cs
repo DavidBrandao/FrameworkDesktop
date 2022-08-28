@@ -75,14 +75,14 @@ namespace ProjetoFrameworkDesktop.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Add an alarm")]
+        [NUnit.Framework.DescriptionAttribute("Add alarm")]
         [NUnit.Framework.CategoryAttribute("Test01")]
-        public virtual void AddAnAlarm()
+        public virtual void AddAlarm()
         {
             string[] tagsOfScenario = new string[] {
                     "Test01"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add an alarm", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add alarm", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
