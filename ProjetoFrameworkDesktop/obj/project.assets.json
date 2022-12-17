@@ -12,27 +12,19 @@
           "Selenium.WebDriver": "3.141.0"
         },
         "compile": {
-          "lib/net45/Appium.Net.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Appium.Net.dll": {}
         },
         "runtime": {
-          "lib/net45/Appium.Net.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Appium.Net.dll": {}
         }
       },
       "BoDi/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/net45/BoDi.dll": {
-            "related": ".pdb"
-          }
+          "lib/net45/BoDi.dll": {}
         },
         "runtime": {
-          "lib/net45/BoDi.dll": {
-            "related": ".pdb"
-          }
+          "lib/net45/BoDi.dll": {}
         },
         "build": {
           "build/_._": {}
@@ -44,14 +36,10 @@
           "System.Configuration"
         ],
         "compile": {
-          "lib/net45/Castle.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Castle.Core.dll": {}
         },
         "runtime": {
-          "lib/net45/Castle.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Castle.Core.dll": {}
         }
       },
       "DotNetSeleniumExtras.PageObjects/3.11.0": {
@@ -69,14 +57,10 @@
       "Gherkin/19.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Gherkin.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Gherkin.dll": {}
         },
         "runtime": {
-          "lib/net45/Gherkin.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Gherkin.dll": {}
         }
       },
       "Microsoft.CodeCoverage/17.0.0": {
@@ -114,27 +98,19 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
       "NUnit/3.13.2": {
         "type": "package",
         "compile": {
-          "lib/net45/nunit.framework.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/nunit.framework.dll": {}
         },
         "runtime": {
-          "lib/net45/nunit.framework.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/nunit.framework.dll": {}
         },
         "build": {
           "build/NUnit.props": {}
@@ -155,14 +131,10 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net45/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/WebDriver.Support.dll": {}
         },
         "runtime": {
-          "lib/net45/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/WebDriver.Support.dll": {}
         }
       },
       "Selenium.WebDriver/3.141.0": {
@@ -171,14 +143,10 @@
           "System.Drawing"
         ],
         "compile": {
-          "lib/net45/WebDriver.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/WebDriver.dll": {}
         },
         "runtime": {
-          "lib/net45/WebDriver.dll": {
-            "related": ".xml"
-          }
+          "lib/net45/WebDriver.dll": {}
         }
       },
       "SpecFlow/3.9.40": {
@@ -190,14 +158,10 @@
           "System.ValueTuple": "4.4.0"
         },
         "compile": {
-          "lib/net461/TechTalk.SpecFlow.dll": {
-            "related": ".ExternalAnnotations.xml;.pdb;.xml"
-          }
+          "lib/net461/TechTalk.SpecFlow.dll": {}
         },
         "runtime": {
-          "lib/net461/TechTalk.SpecFlow.dll": {
-            "related": ".ExternalAnnotations.xml;.pdb;.xml"
-          }
+          "lib/net461/TechTalk.SpecFlow.dll": {}
         },
         "build": {
           "build/SpecFlow.targets": {}
@@ -220,14 +184,10 @@
           "SpecFlow.Tools.MsBuild.Generation": "[3.9.40]"
         },
         "compile": {
-          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
-            "related": ".pdb"
-          }
+          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
-            "related": ".pdb"
-          }
+          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
           "build/SpecFlow.NUnit.props": {},
@@ -273,14 +233,10 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net47/System.ValueTuple.dll": {
-            "related": ".xml"
-          }
+          "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {
-            "related": ".xml"
-          }
+          "lib/net47/System.ValueTuple.dll": {}
         }
       }
     }
@@ -984,24 +940,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\David\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\talita.m\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\source\\repos\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\talita.m\\Desktop\\PDI\\FrameworkDesktop\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop.csproj",
       "projectName": "ProjetoFrameworkDesktop",
-      "projectPath": "C:\\Users\\David\\source\\repos\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop.csproj",
-      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\source\\repos\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop\\obj\\",
+      "projectPath": "C:\\Users\\talita.m\\Desktop\\PDI\\FrameworkDesktop\\ProjetoFrameworkDesktop\\ProjetoFrameworkDesktop.csproj",
+      "packagesPath": "C:\\Users\\talita.m\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\talita.m\\Desktop\\PDI\\FrameworkDesktop\\ProjetoFrameworkDesktop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\talita.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1060,7 +1011,7 @@
             "version": "[3.13.2, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
